@@ -1,0 +1,246 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+margin: 0;
+padding: 0;
+width: 100%;
+}
+h1 {
+font-family:"Arvo";
+font-weight:normal;
+font-size: 55px;
+text-align: center;
+color: #fff;
+margin: 0;
+padding: 0;
+}
+h2 {
+font-family:"Arvo";
+font-weight: normal;
+font-size: 40px;
+text-align: center;
+color: #fff;
+margin: 0;
+padding: 0;
+}
+h3 {
+font-family: Oswald;
+font-weight: normal;
+font-size: 16px;
+text-align: center;
+margin: 5px 0;
+padding: 0;
+z-index: 1;
+position: relative;
+}
+
+#verti{
+    z-index: 100;
+    position: fixed;
+    width: 100px;
+    height: 0px;
+    top: 10%;
+    
+
+}
+
+#verti  ul{
+    margin-top: 150px;
+    list-style: none;
+    display: block;
+    
+}
+
+#verti li{
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+}
+
+#verti p{
+    position: relative;
+    padding: 16px;
+    padding-right: 25px;
+    float: inherit;
+    text-align: center;
+    opacity: .6;
+    color: white;
+    font-size: 2em;
+    cursor: pointer;
+    cursor: hand;
+}
+
+
+.navbar-wrapper {
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   z-index: 20;
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+carousel-caption > h1 {
+color: black;    
+}
+
+.lead {
+    color: #0000cc;
+}
+
+.navbar-custom {
+  background-color: transparent;
+  
+}
+.navbar-custom .navbar-nav > li > a:hover, .navbar-custom .navbar-nav > li > a:focus {
+    background-color: #19a794;
+}
+
+.navbar-custom .navbar-nav .dropdown-menu > li > a, .navbar-custom .navbar-nav .dropdown-menu > li > a:hover, .navbar-custom .navbar-nav .dropdown-menu > li > a:focus {
+    background-color: #19a794;
+    
+}
+
+.navbar-custom .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-custom .navbar-nav .open .dropdown-menu > li > a:focus {
+   background-color: #19a794;
+      color: #54ff87;
+  }
+
+.navbar-custom .navbar-nav .open .dropdown-menu>li>a,.navbar-custom .navbar-nav .open .dropdown-menu {
+    background-color: transparent;
+    color: #cad0d2;
+}
+
+.navbar-custom .navbar-brand {
+  color: #cad0d2;
+}
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus {
+  color: #54ff87;
+}
+.navbar-custom .navbar-text {
+  color: #cad0d2;
+}
+.navbar-custom .navbar-nav > li > a {
+  color: #cad0d2;
+}
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav > li > a:focus {
+  color: #54ff87;
+}
+.navbar-custom .navbar-nav > .active > a,
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus {
+  color: #54ff87;
+  background-color: #19a794;
+}
+.navbar-custom .navbar-nav > .open > a,
+.navbar-custom .navbar-nav > .open > a:hover,
+.navbar-custom .navbar-nav > .open > a:focus {
+  color: #54ff87;
+  background-color: #19a794;
+}
+.navbar-custom .navbar-toggle {
+  border-color: #19a794;
+}
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+  background-color: #19a794;
+}
+.navbar-custom .navbar-toggle .icon-bar {
+  background-color: #cad0d2;
+}
+.navbar-custom .navbar-collapse,
+.navbar-custom .navbar-form {
+  border-color: #cad0d2;
+}
+.navbar-custom .navbar-link {
+  color: #cad0d2;
+}
+.navbar-custom .navbar-link:hover {
+  color: #54ff87;
+}
+
+@media (max-width: 767px) {
+  .navbar-custom .navbar-nav .open .dropdown-menu > li > a {
+    color: #cad0d2;
+  }
+  .navbar-custom .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-custom .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #54ff87;
+  }
+  .navbar-custom .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #54ff87;
+    background-color: #19a794;
+  }
+}
+
+
+* {
+	padding:0;
+	margin:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url(https://www.berklee.edu/sites/default/files/Berklee-Headphones_SLIDER_07-06-15.jpg); /* Nuestra imagen de fondo */
+	background-repeat:no-repeat; /* Indicamos que no se repetira */
+	background-size:cover; /* Encajamos la imagen al 100% del ancho */
+	background-attachment: fixed; /* Establecemos una posicion fija para la imagen */
+
+	font-family:helvetica, arial, sans-serif;
+	line-height:20px;
+}
+
+.contenedor {
+	width: 90%;
+	max-width:900px;
+	margin:auto;
+}
+
+article {
+	background:rgba(24,8,33,.9);
+	padding:20px;
+	margin:20px 0;
+	color:#fff;
+	box-shadow:0 5px 5px 3px rgba(0, 0, 0, 0.25);
+}
+
+article h2 {
+	color:#fff;
+}
+
+article hr {
+	background:#F64740;
+	height:5px;
+	border:none;
+}
+
+article p {
+	line-height: 25px;
+}
+
+article h2, article p, article hr {
+	margin-bottom: 20px;
+}
+
+
+
+.row h2{
+    color: #99ff99;    
+}  
+
+.row p{
+    color: bisque;
+}
